@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #result{
+            font-family: 'Times New Roman', Times, serif;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="result"></h1>
+    
+    <script>
+        var comprimento = prompt("Informe a medida do comprimento")
+        var largura = prompt("Informa a medida da largura")
+        var divisao = 2
+        document.getElementById("result").innerHTML= "A área do triangulo é " + (parseFloat(comprimento) * parseFloat(largura)) / divisao;
+
+   
+    </script>
+</body>
+</html> 
